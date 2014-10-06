@@ -352,7 +352,7 @@ void MainWindow::serverStarted() {
   splashClose();
   loadWorkspaces();
 
-  this->showNormal();
+  this->showMaximized();
 }
 
 
