@@ -1157,6 +1157,7 @@ void MainWindow::createInfoPane() {
   infoWidg->setWindowIcon(QIcon(":images/icon-smaller.png"));
   infoWidg->setLayout(infoLayout);
   infoWidg->setWindowFlags(Qt::Tool | Qt::WindowTitleHint | Qt::WindowCloseButtonHint | Qt::CustomizeWindowHint);
+  infoWidg->setWindowTitle("About Sonic Pi");
 
   QAction *closeInfoAct = new QAction(this);
   closeInfoAct->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_W));
